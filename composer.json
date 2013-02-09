@@ -1,0 +1,27 @@
+{
+    "name" : "dino/ckeditor-module",
+    "description" : "ZF2 module that provides CKEditor",
+    "type" : "module",
+    "version" : "1.0.0-dev",
+    "keywords" : ["ckeditor", "zf2", "wysiwyg", "editor"],
+    "homepage" : "https://github.com/raykolbe/CKEditorModule",
+    "license" : "MIT",
+    "require" : {
+        "php" : ">=5.3.3",
+        "zendframework/zendframework" : "2.*"
+    },
+    "authors" : [
+        {
+            "name" : "Raymond Kolbe",
+            "email" : "rkolbe@gmail.com",
+            "homepage" : "http://raymondkolbe.com",
+            "role" : "Developer"
+        }
+    ],
+    "autoload" : {
+        "psr-0" : {
+            "CKEditorModule" : "src/"
+        },
+        "classmap" : ["vendor/CKEditor/src/"]
+    }
+}
