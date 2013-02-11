@@ -11,7 +11,7 @@ use Zend\Stdlib\AbstractOptions;
  * @todo Implement all CKEDITOR.config options.
  * @see http://docs.cksource.com/ckeditor_api/symbols/CKEDITOR.config.html
  */
-class CKEditor extends AbstractOptions
+class Options extends AbstractOptions
 {
     protected $basePath = '/js/ckeditor/';
     protected $skin = 'moono';
