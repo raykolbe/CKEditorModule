@@ -44,9 +44,6 @@ class Module implements
     public function getAutoloaderConfig()
     {
         return array(
-            'Zend\Loader\ClassMapAutoloader' => array(
-                __DIR__ . '/autoload_classmap.php',
-            ),
             AutoloaderFactory::STANDARD_AUTOLOADER => array(
                 StandardAutoloader::LOAD_NS => array(
                     __NAMESPACE__ => __DIR__
