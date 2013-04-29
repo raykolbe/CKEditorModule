@@ -74,6 +74,17 @@ class Options extends AbstractOptions
         return $this;
     }
     
+    public function getHeight()
+    {
+        return $this->height;
+    }
+    
+    public function setHeight($height)
+    {
+        $this->height = $height;
+        return $this;
+    }
+    
     public function getLanguage()
     {
         return $this->language;
